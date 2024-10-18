@@ -1,0 +1,18 @@
+waves.shm/
+xcelium.d/
+xmverilog.history
+xmverilog.key
+xmverilog.log
+ c5_pin_model_dump.txt
+db/
+de1_soc_wrapper.qpf
+de1_soc_wrapper.qsf
+de1_soc_wrapper.qws
+de2_wrapper.qpf
+de2_wrapper.qsf
+de2_wrapper.qws
+incremental_db/
+output_files/
+c5_pin_model_dump.txt
+.simvision/
+*.diag

@@ -1,0 +1,78 @@
+#! /bin/bash
+
+LIB=behavioural
+HEXPROG=software/code.hex
+VMEMPROG=software/code.vmem
+testbench=testbench/soc_stim.sv
+
+SIM_OPT=
+
+graphics=true
+general_options=""
+
+while
+  case $1 in
+    -*) true ;;
+    *) false ;;
+  esac
+do
+  option="$1"
+  shift
+  case "${option}" in
+    -no_graphics)
+      graphics=false
+      ;;
+    -q)
+      SIM_OPT="$SIM_OPT -q"
+      ;;
+    -fpga_target | -target )
+      fpga_type="$1"
+      shift
+      case "${fpga_type}" in
+        Nexys*4 ) fpga_type=nexys4 ;;
+        DE0 ) fpga_type=de0 ;;
+        DE1-SoC ) fpga_type=de1_soc ;;
+        DE2 ) fpga_type=de2 ;;
+        DE2-115 ) fpga_type=de2 ;;
+      esac
+      if [ "$fpga_type" != "" ] && [ "$fpga_type" != "generic" ] ; then
+        testbench=testbench/${fpga_type}_wrapper_stim.sv
+      fi
+      ;;
+    *)
+      echo "unknown option for simulate: ${option}"
+      exit
+      ;;
+  esac
+done
+
+if [ -d "$1" ]
+then
+   LIB=$1
+   shift
+fi
+
+if [ -f "$1" ] && [[ "$1" == *.sv ]] 
+then
+   testbench=$1
+   shift
+fi
+
+tcl_file=${testbench%_stim.sv}.tcl
+
+if $graphics
+then
+  simcommand="xmverilog -sv +gui +access+r"
+  [ -f "$tcl_file" ] && simcommand="$simcommand +tcl+$tcl_file"
+else
+  simcommand="xmverilog"
+fi
+
+
+simcommand="$simcommand ${SIM_OPT} -y $LIB +libext+.sv \
+            +define+PROG_FILE=\\\"${HEXPROG}\\\" \
+            +define+PROG_FILE_VMEM=\\\"${VMEMPROG}\\\" \
+            $testbench"
+
+echo $simcommand
+$simcommand

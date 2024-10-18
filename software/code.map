@@ -1,0 +1,244 @@
+Archive member included to satisfy reference by file (symbol)
+
+/srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+                              code/main.o (__addsf3)
+/srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+                              code/main.o (__ltsf2)
+/srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+                              code/main.o (__mulsf3)
+/srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+                              code/main.o (__subsf3)
+/srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+                              code/main.o (__floatunsisf)
+/srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+                              /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o) (__mulsi3)
+/srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+                              /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o) (__clzsi2)
+/srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clz.o)
+                              /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o) (__clz_tab)
+
+Discarded input sections
+
+ .eh_frame      0x0000000000000000       0x2c code/start.o
+ .debug_info    0x0000000000000000      0x351 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+ .debug_abbrev  0x0000000000000000      0x191 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+ .debug_loc     0x0000000000000000      0x83c /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+ .debug_ranges  0x0000000000000000      0x140 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+ .debug_line    0x0000000000000000      0x92b /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+ .debug_str     0x0000000000000000      0x2ee /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+ .debug_frame   0x0000000000000000       0x40 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+ .debug_info    0x0000000000000000      0x264 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+ .debug_abbrev  0x0000000000000000      0x182 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+ .debug_loc     0x0000000000000000       0xbc /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+ .debug_ranges  0x0000000000000000       0x38 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+ .debug_line    0x0000000000000000      0x2a3 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+ .debug_str     0x0000000000000000      0x24d /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+ .debug_frame   0x0000000000000000       0x20 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+ .debug_info    0x0000000000000000      0x450 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+ .debug_abbrev  0x0000000000000000      0x18b /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+ .debug_loc     0x0000000000000000      0x63e /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+ .debug_ranges  0x0000000000000000       0xa8 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+ .debug_line    0x0000000000000000      0x700 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+ .debug_str     0x0000000000000000      0x31f /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+ .debug_frame   0x0000000000000000       0x48 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+ .debug_info    0x0000000000000000      0x351 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+ .debug_abbrev  0x0000000000000000      0x191 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+ .debug_loc     0x0000000000000000      0xbdf /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+ .debug_ranges  0x0000000000000000      0x140 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+ .debug_line    0x0000000000000000      0x978 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+ .debug_str     0x0000000000000000      0x2ee /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+ .debug_frame   0x0000000000000000       0x3c /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+ .debug_info    0x0000000000000000      0x24a /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+ .debug_abbrev  0x0000000000000000      0x1a9 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+ .debug_loc     0x0000000000000000      0x165 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+ .debug_ranges  0x0000000000000000       0x50 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+ .debug_line    0x0000000000000000      0x2f0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+ .debug_str     0x0000000000000000      0x2b6 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+ .debug_frame   0x0000000000000000       0x34 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+ .debug_line    0x0000000000000000       0x93 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .debug_info    0x0000000000000000       0x26 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .debug_abbrev  0x0000000000000000       0x14 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .debug_str     0x0000000000000000       0xb2 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .debug_info    0x0000000000000000      0xbac /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x0000000000000000      0x242 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+ .debug_loc     0x0000000000000000       0x6b /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+ .debug_ranges  0x0000000000000000       0x20 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+ .debug_line    0x0000000000000000      0x292 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+ .debug_str     0x0000000000000000      0x783 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+ .debug_frame   0x0000000000000000       0x20 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000000000      0xb3f /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clz.o)
+ .debug_abbrev  0x0000000000000000      0x1e8 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clz.o)
+ .debug_aranges
+                0x0000000000000000       0x18 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clz.o)
+ .debug_line    0x0000000000000000      0x210 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clz.o)
+ .debug_str     0x0000000000000000      0x766 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clz.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000000000000 0x0000000000002000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000000000     0x1928
+                0x0000000000000000                _stext = .
+ CREATE_OBJECT_SYMBOLS
+ *(.reset.text)
+ .reset.text    0x0000000000000000       0x14 code/start.o
+                0x0000000000000000                _start
+ *(.text)
+ .text          0x0000000000000014      0x988 code/main.o
+                0x0000000000000014                check_switches
+                0x0000000000000060                read_switches
+                0x0000000000000090                write_out
+                0x00000000000000d4                read_out
+                0x000000000000010c                set_out_invalid
+                0x0000000000000144                set_out_nextvalid
+                0x0000000000000184                check_out
+                0x00000000000001d0                check_rx
+                0x0000000000000218                read_rx
+                0x000000000000024c                check_tx
+                0x0000000000000290                write_tx
+                0x00000000000002cc                read_id
+                0x00000000000002f0                write_dig
+                0x000000000000031c                start_dig
+                0x0000000000000348                finish_dig
+                0x0000000000000374                write_pixcel_dig
+                0x00000000000003a4                writeHalfByteMemory
+                0x00000000000003e0                readHalfByteMemory
+                0x0000000000000414                write_remote_memory
+                0x0000000000000480                write_finish
+                0x00000000000004e0                iteratePoint
+                0x0000000000000688                drawMandlebrotSet
+                0x00000000000007ac                main
+ .text          0x000000000000099c       0x94 code/crt.o
+                0x000000000000099c                ResetHandler
+ .text          0x0000000000000a30        0x0 code/start.o
+ .text          0x0000000000000a30      0x42c /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+                0x0000000000000a30                __addsf3
+ .text          0x0000000000000e5c       0xbc /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+                0x0000000000000e5c                __lesf2
+                0x0000000000000e5c                __ltsf2
+ .text          0x0000000000000f18      0x320 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+                0x0000000000000f18                __mulsf3
+ .text          0x0000000000001238      0x44c /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+                0x0000000000001238                __subsf3
+ .text          0x0000000000001684       0xdc /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+                0x0000000000001684                __floatunsisf
+ .text          0x0000000000001760       0x24 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+                0x0000000000001760                __mulsi3
+ .text          0x0000000000001784       0x4c /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+                0x0000000000001784                __clzsi2
+ .text          0x00000000000017d0        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clz.o)
+ *(.text.*)
+                0x00000000000017d0                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x00000000000017d0       0x14 code/main.o
+ .rodata        0x00000000000017e4       0x3c /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+ .rodata        0x0000000000001820      0x100 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clz.o)
+                0x0000000000001820                __clz_tab
+ *(.rodata.*)
+                0x0000000000001920                . = ALIGN (0x4)
+ *(.srodata)
+ .srodata       0x0000000000001920        0x8 code/main.o
+                0x0000000000001920                scale_x
+                0x0000000000001924                scale_y
+ *(.srodata.*)
+                0x0000000000001928                . = ALIGN (0x4)
+                0x0000000000001928                _etext = .
+
+.rela.dyn       0x0000000000001928        0x0
+ .rela.text     0x0000000000001928        0x0 code/main.o
+ .rela.reset.text
+                0x0000000000001928        0x0 code/main.o
+
+.data           0x0000000000001928       0x1c
+                0x0000000000001928                . = ALIGN (0x4)
+                0x0000000000001928                _sdata = .
+ *(.data)
+ .data          0x0000000000001928        0x0 code/main.o
+ .data          0x0000000000001928        0x0 code/crt.o
+ .data          0x0000000000001928        0x0 code/start.o
+ .data          0x0000000000001928        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+ .data          0x0000000000001928        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+ .data          0x0000000000001928        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+ .data          0x0000000000001928        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+ .data          0x0000000000001928        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+ .data          0x0000000000001928        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .data          0x0000000000001928        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+ .data          0x0000000000001928        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clz.o)
+ *(.data.*)
+                0x0000000000001928                . = ALIGN (0x4)
+                0x0000000000001928                _small_data = .
+ *(.sdata)
+ .sdata         0x0000000000001928       0x1c code/main.o
+                0x0000000000001928                SW_REGS
+                0x000000000000192c                OUT_REGS
+                0x0000000000001930                RX_REGS
+                0x0000000000001934                TX_REGS
+                0x0000000000001938                ID_REGS
+                0x000000000000193c                DIG_REGS
+                0x0000000000001940                VGA_REGS
+ *(.sdata.*)
+                0x0000000000001944                . = ALIGN (0x4)
+                0x0000000000001944                _edata = .
+
+.bss            0x0000000000001944        0x0
+                0x0000000000001944                . = ALIGN (0x4)
+                0x0000000000001944                _sbss = .
+ *(.sbss)
+ *(.sbss.*)
+                0x0000000000001944                . = ALIGN (0x4)
+ *(.bss)
+ .bss           0x0000000000001944        0x0 code/main.o
+ .bss           0x0000000000001944        0x0 code/crt.o
+ .bss           0x0000000000001944        0x0 code/start.o
+ .bss           0x0000000000001944        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+ .bss           0x0000000000001944        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+ .bss           0x0000000000001944        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+ .bss           0x0000000000001944        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+ .bss           0x0000000000001944        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+ .bss           0x0000000000001944        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(muldi3.o)
+ .bss           0x0000000000001944        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+ .bss           0x0000000000001944        0x0 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clz.o)
+ *(.bss.*)
+                0x0000000000001944                . = ALIGN (0x4)
+                0x0000000000001944                _ebss = .
+                0x0000000000002000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x0000000000002128                __global_pointer$ = (_small_data + 0x800)
+
+/DISCARD/
+ *(.eh_frame)
+LOAD code/main.o
+LOAD code/crt.o
+LOAD code/start.o
+LOAD /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a
+OUTPUT(code.elf elf32-littleriscv)
+
+.comment        0x0000000000000000       0x11
+ .comment       0x0000000000000000       0x11 code/main.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 code/crt.o
+ .comment       0x0000000000000011       0x12 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(addsf3.o)
+ .comment       0x0000000000000011       0x12 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(lesf2.o)
+ .comment       0x0000000000000011       0x12 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(mulsf3.o)
+ .comment       0x0000000000000011       0x12 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(subsf3.o)
+ .comment       0x0000000000000011       0x12 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(floatunsisf.o)
+ .comment       0x0000000000000011       0x12 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clzsi2.o)
+ .comment       0x0000000000000011       0x12 /srv/cad/soft/riscv32i/bin/../lib/gcc/riscv32-unknown-elf/8.2.0/libgcc.a(_clz.o)

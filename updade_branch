@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# Fetch all remote updates
+git fetch --all
+
+# Get all local branches
+local_branches=$(git branch | sed 's/^[ *]*//')
+
+# Get all remote branches
+remote_branches=$(git branch -r | sed 's|origin/||' | grep -v '\->')
+
+# Iterate over all local branches
+for local_branch in $local_branches; do
+  # Check if there is a corresponding remote branch
+  if ! echo "$remote_branches" | grep -q "^$local_branch$"; then
+    echo "Local branch '$local_branch' has no corresponding remote branch. Deleting it."
+    git branch -D $local_branch
+  fi
+done
+
+# Iterate over all remote branches
+for remote_branch in $remote_branches; do
+  # Extract branch name
+  branch_name=$remote_branch
+
+  # Check if there is a corresponding local branch
+  if echo "$local_branches" | grep -q "^$branch_name$"; then
+    # Switch to the local branch
+    git checkout $branch_name
+    # Pull the latest changes from the remote branch
+    git pull origin $branch_name
+  else
+    # Create a local branch and set it to track the remote branch
+    git checkout -b $branch_name origin/$branch_name
+  fi
+done
